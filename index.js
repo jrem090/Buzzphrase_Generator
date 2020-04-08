@@ -83,7 +83,7 @@ var app = new Vue({
                 case 11:
                     this.message += "distributed ";
                     break;
-                case 12:
+                 case 12:
                     this.message += "automated ";
                     break;
             }
@@ -129,7 +129,6 @@ var app = new Vue({
                 case 12:
                     this.message += "AI";
                     break;
-                    
             }
         }
     }
