@@ -46,7 +46,7 @@ var app = new Vue({
             }
             
             //Second word
-            switch (Math.floor(Math.random() * 12)) {
+            switch (Math.floor(Math.random() * 13)) {
                 case 0:
                     this.message += "management ";
                     break;
@@ -126,9 +126,9 @@ var app = new Vue({
                 case 11:
                     this.message += "paradigm";
                     break;
-                 case 12:
+                case 12:
                     this.message += "AI";
-                    break; 
+                    break;
             }
         }
     }
